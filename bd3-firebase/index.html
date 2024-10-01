@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- IMPORT DO SDK DO FIREBASE -->
+    <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-app.js"></script> 
+      <!-- IMPORT DO SDK DO FIRESTORE --> 
+    <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-firestore.js"></script> 
+
+    <script>
+    const firebaseConfig = {
+        apiKey: "AIzaSyAisFzjPHw0MyqoblRia6pCtemCDQi6bZU",
+        authDomain: "bd3-app-libri-r.firebaseapp.com",
+        projectId: "bd3-app-libri-r",
+        storageBucket: "bd3-app-libri-r.appspot.com",
+        messagingSenderId: "1021996482071",
+        appId: "1:1021996482071:web:08b42e21b580b33f506652",
+        measurementId: "G-4GTL2ZTWJJ"
+      };
+
+      /* inizializa o firebase */
+      firebase.initalizeApp(firebaseConfig);
+      /* inicia firestone */
+      const db = firebase.firestone();
+      console.log(db);
+      /* importação do adrquivo.js */
+      <script src="app.js"></script> 
+
+    </script>
+
+</body>
+</html>
