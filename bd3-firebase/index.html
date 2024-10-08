@@ -11,29 +11,29 @@
 
     <!-- IMPORT DO SDK DO FIREBASE -->
     <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-app.js"></script> 
-      <!-- IMPORT DO SDK DO FIRESTORE --> 
+    <!-- IMPORT DO SDK DO FIRESTORE --> 
     <script src="https://www.gstatic.com/firebasejs/5.0.3/firebase-firestore.js"></script> 
 
     <script>
-    const firebaseConfig = {
-        apiKey: "AIzaSyAisFzjPHw0MyqoblRia6pCtemCDQi6bZU",
-        authDomain: "bd3-app-libri-r.firebaseapp.com",
-        projectId: "bd3-app-libri-r",
-        storageBucket: "bd3-app-libri-r.appspot.com",
-        messagingSenderId: "1021996482071",
-        appId: "1:1021996482071:web:08b42e21b580b33f506652",
-        measurementId: "G-4GTL2ZTWJJ"
-      };
+        const firebaseConfig = {
+            apiKey: "AIzaSyAisFzjPHw0MyqoblRia6pCtemCDQi6bZU",
+            authDomain: "bd3-app-libri-r.firebaseapp.com",
+            projectId: "bd3-app-libri-r",
+            storageBucket: "bd3-app-libri-r.appspot.com",
+            messagingSenderId: "1021996482071",
+            appId: "1:1021996482071:web:08b42e21b580b33f506652",
+            measurementId: "G-4GTL2ZTWJJ"
+        };
 
-      /* inizializa o firebase */
-      firebase.initalizeApp(firebaseConfig);
-      /* inicia firestone */
-      const db = firebase.firestone();
-      console.log(db);
-      /* importação do adrquivo.js */
-      <script src="app.js"></script> 
-
+        /* inicializa o firebase */
+        firebase.initializeApp(firebaseConfig);
+        /* inicia firestore */
+        const db = firebase.firestore();
+        console.log(db);
     </script>
+
+    <!-- Importação do arquivo app.js -->
+    <script src="app.js"></script> 
 
 </body>
 </html>
